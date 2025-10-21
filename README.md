@@ -8,7 +8,7 @@ A ligth wrapper that allow using wiringPi library (https://github.com/WiringPi/W
 - **GPIO:** All pins can be configured as inputs or outputs, and an internal pull-up/pull-down resistor can be set. Edge detection functions are also available.
 - **PWM:** The two hardware PWM channels can be configured and used with the corresponding pins (PWM0 on GPIO12 and GPIO18, and PWM1 on GPIO13 and GPIO19). The remaining pins can be configured for software PWM.
 - **SPI:** Both channels, SPI0 and SPI1, can be used (if properly enabled in config.txt) and any of the corresponding chip select pins (CE0, CE1, or CE2) can be chosen.
-- **SPI:** Standard access to the I2C port with data and register read/write functions.
+- **I2C:** Standard access to the I2C port with data and register read/write functions.
 - **Timming:** Funciones para implementar retardos en milisegundos y microsegundos 
 
 Whether you’re working on a simple LED blink project or a complex automation system, WiringPi provides the tools you need to get the job done efficiently.
