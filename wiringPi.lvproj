@@ -15,6 +15,7 @@
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="Install Libraries.vi" Type="VI" URL="../Install Libraries.vi"/>
+		<Item Name="Log.vi" Type="VI" URL="../Log.vi"/>
 		<Item Name="Dependencies" Type="Dependencies"/>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
