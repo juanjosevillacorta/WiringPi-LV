@@ -24,3 +24,5 @@ The Funcitons menu will be updated to include the new blocks.
 
 libLVwiringPi.so (*) and libcrypt.so.1 libraries (available in <vi.lib>\wiringPi) must be copied to the Raspberry where the code will be executed in the /usr/lib folder of the LabVIEW chroot environment (/srv/chroot/labview/usr/lib on the main file system).
 This can be done manually, but a program for automatic installation is included: "Install Libraries.vi" in <vi.lib>\wiringPi. Run the program, enter the device details (Host, user, and password), and click Install.
+
+(*) LibLVwiringPi.so is a version of wiringPi compiled within the LINX LabVIEW environment with some minor additions to support the LabVIEW's Call Library Funcition Node.
