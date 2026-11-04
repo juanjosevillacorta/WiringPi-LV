@@ -107,6 +107,7 @@ DirectoryIndex index.htm
 			<Item Name="Example I2C ADXL345.vi" Type="VI" URL="../Examples/Example I2C ADXL345.vi"/>
 			<Item Name="Example SPI ADXL345.vi" Type="VI" URL="../Examples/Example SPI ADXL345.vi"/>
 		</Item>
+		<Item Name="GPIO Alt Mode.ctl" Type="VI" URL="../Type Defs/GPIO Alt Mode.ctl"/>
 		<Item Name="wiringPi.lvlib" Type="Library" URL="../wiringPi.lvlib"/>
 		<Item Name="Dependencies" Type="Dependencies"/>
 		<Item Name="Build Specifications" Type="Build"/>
